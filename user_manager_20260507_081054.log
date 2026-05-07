@@ -1,0 +1,47 @@
+[2026-05-07 08:10:54] Input file validated: sample_users.csv
+[2026-05-07 08:10:54] Input source confirmed: sample_users.csv
+[2026-05-07 08:10:59] User confirmed. Beginning processing of 4 users.
+[2026-05-07 08:10:59] Processing: john.smith@example.com
+[2026-05-07 08:10:59] Username: sJohn
+[2026-05-07 08:10:59] User sJohn created.
+[2026-05-07 08:10:59] Password expiry set for sJohn (must change on first login).
+[2026-05-07 08:10:59] Group 'sudo' already exists. Skipping.
+[2026-05-07 08:10:59] Added sJohn to group: sudo
+[2026-05-07 08:11:00] Group 'admins' created.
+[2026-05-07 08:11:00] Added sJohn to group: admins
+[2026-05-07 08:11:00] Group 'staffData' created.
+[2026-05-07 08:11:00] Setting up shared folder: /staffData (group: staffData)
+[2026-05-07 08:11:00] Permissions set on /staffData (770, setgid, group: staffData).
+[2026-05-07 08:11:00] Symlink ~/shared -> /staffData created for sJohn.
+[2026-05-07 08:11:00] Alias 'myls' added to /home/sJohn/.bash_alias for sudo user sJohn.
+[2026-05-07 08:11:00] Setup complete for: sJohn
+[2026-05-07 08:11:00] Processing: alice.jones@example.com
+[2026-05-07 08:11:00] Username: jAlice
+[2026-05-07 08:11:00] User jAlice created.
+[2026-05-07 08:11:00] Password expiry set for jAlice (must change on first login).
+[2026-05-07 08:11:00] Group 'staff' already exists. Skipping.
+[2026-05-07 08:11:00] Added jAlice to group: staff
+[2026-05-07 08:11:00] Group 'teachers' created.
+[2026-05-07 08:11:00] Added jAlice to group: teachers
+[2026-05-07 08:11:00] Group 'staffData' already exists. Skipping.
+[2026-05-07 08:11:00] Setting up shared folder: /staffData (group: staffData)
+[2026-05-07 08:11:01] Permissions set on /staffData (770, setgid, group: staffData).
+[2026-05-07 08:11:01] Symlink ~/shared -> /staffData created for jAlice.
+[2026-05-07 08:11:01] Setup complete for: jAlice
+[2026-05-07 08:11:01] Processing: bob.brown@example.com
+[2026-05-07 08:11:01] Username: bBob
+[2026-05-07 08:11:01] User bBob created.
+[2026-05-07 08:11:01] Password expiry set for bBob (must change on first login).
+[2026-05-07 08:11:01] Group 'staff' already exists. Skipping.
+[2026-05-07 08:11:01] Added bBob to group: staff
+[2026-05-07 08:11:01] Group 'teachers' already exists. Skipping.
+[2026-05-07 08:11:01] Added bBob to group: teachers
+[2026-05-07 08:11:01] Group 'staffData' already exists. Skipping.
+[2026-05-07 08:11:01] Setting up shared folder: /staffData (group: staffData)
+[2026-05-07 08:11:01] Permissions set on /staffData (770, setgid, group: staffData).
+[2026-05-07 08:11:01] Symlink ~/shared -> /staffData created for bBob.
+[2026-05-07 08:11:01] Setup complete for: bBob
+[2026-05-07 08:11:01] Processing: jane.doe@example.com
+[2026-05-07 08:11:01] Username: dJane
+[2026-05-07 08:11:01] ERROR: Invalid date '1995/13/45' for jane.doe@example.com.
+[2026-05-07 08:11:01] Script completed.

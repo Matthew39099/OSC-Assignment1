@@ -1,0 +1,12 @@
+#!/bin/bash
+#==============================================================================
+# Script : create-user.sh
+# Purpose: Create a user envrioment
+# Author : Matthew Visser
+===============================================================================
+#Global variables
+LOG_FILE="user_manager_$(date +%Y%m%d_%H%M%S).log
+INPUT_FILE=""
+log_message(){
+	local message="$1"
+	local timestamp
