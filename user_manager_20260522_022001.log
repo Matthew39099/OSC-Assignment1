@@ -1,0 +1,18 @@
+[2026-05-22 02:20:23] Attempting download from https://osc.op-bit.nz/share/users.csv
+[2026-05-22 02:20:23] Download successful: downloaded_users_1779416423.csv
+[2026-05-22 02:20:23] Input file validated: downloaded_users_1779416423.csv
+[2026-05-22 02:20:23] Input source confirmed: downloaded_users_1779416423.csv
+[2026-05-22 02:20:26] User confirmed. Beginning processing of 4 users.
+[2026-05-22 02:20:26] Processing: alice.smith@example.com
+[2026-05-22 02:20:26] Username: sAlice
+[2026-05-22 02:20:26] SKIP: sAlice already exists.
+[2026-05-22 02:20:26] Processing: bob.jones@example.com
+[2026-05-22 02:20:26] Username: jBob
+[2026-05-22 02:20:26] SKIP: jBob already exists.
+[2026-05-22 02:20:26] Processing: carol.white@example.com
+[2026-05-22 02:20:26] Username: wCarol
+[2026-05-22 02:20:26] SKIP: wCarol already exists.
+[2026-05-22 02:20:26] Processing: dave.nguyen@example.com
+[2026-05-22 02:20:26] Username: nDave
+[2026-05-22 02:20:26] SKIP: nDave already exists.
+[2026-05-22 02:20:26] Script completed.
